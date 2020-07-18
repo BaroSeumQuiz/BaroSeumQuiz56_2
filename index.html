@@ -372,9 +372,9 @@
   <label><input type="radio" name="quiz19" value="v2"> 20</label><br>
   <label><input type="radio" name="quiz19" value="v3"> 80</label><br>
 -->
-<label><input type="radio" name="quiz19" value="v1"> >, > </label></br>
-<label><input type="radio" name="quiz19" value="v2"> <, > </label><br>
-<label><input type="radio" name="quiz19" value="v3"> >, < </label><br>
+<label><input type="radio" name="quiz19" value="v1"> 10개 </label></br>
+<label><input type="radio" name="quiz19" value="v2"> 13개 </label><br>
+<label><input type="radio" name="quiz19" value="v3"> 14개 </label><br>
  </font>
  <div id="checktrue19" style="margin:0px 0 0 0px; display:none;" >
    <img src="/BaroSeumQuiz56_2/images/checktrue.png"/>
@@ -558,7 +558,7 @@
    if(form11.quiz19.value=="20")
    if(form11.quiz19[1].checked==true)
    */
-   if(form19.quiz19.value=="13" || form19.quiz19.value=="13개" ){
+   if(form19.quiz19[1].checked==true){
   checkresult_true(19);
    }else{
      wrongcheckcnt[8] = 1;
